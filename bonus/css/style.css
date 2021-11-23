@@ -4,11 +4,11 @@
     box-sizing: border-box;
   }
   
-  /* .container {
+  .container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-  } */
+  }
 
   ul{
       display: flex;
@@ -24,11 +24,11 @@
 
   }
   
-  /* .box {
-    width: 100px;
+  .box {
+    width: calc(100% / 7 - 10px );
     height: 100px;
    
-  } */
+  }
 
   .blue{
       background-color: blue;
@@ -52,19 +52,4 @@
 
 
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    width: 80%;
-    margin: 0 auto;
-  }
   
-  .box {
-    width: calc(100% / 7 - 10px)  ;
-    /* width: calc(100% / 7 - 60px / 7)  ; */
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
