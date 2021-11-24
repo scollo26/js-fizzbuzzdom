@@ -9,8 +9,8 @@ for(let i=1; i<=100; i++){
     div.append(i);
     // classe-box-div
     div.classList.add('box');
-    // div-dentro-contenitore
-    container.append(div);
+    
+    
 
     if( i % 15 == 0){
     // stampa-fizzbuzz
@@ -27,6 +27,8 @@ for(let i=1; i<=100; i++){
     div.classList.add("green");
     }
     console.log(i);
+    // div-dentro-contenitore
+    container.append(div);
     div.classList.add("blue");
 
 } 
